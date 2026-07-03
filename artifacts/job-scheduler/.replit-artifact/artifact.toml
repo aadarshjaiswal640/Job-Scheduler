@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Job Scheduler Dashboard"
+version = "1.0.0"
+id = "artifacts/job-scheduler"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22101
+
+[services.development]
+run = "pnpm --filter @workspace/job-scheduler run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/job-scheduler", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/job-scheduler/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22101"
+BASE_PATH = "/"
