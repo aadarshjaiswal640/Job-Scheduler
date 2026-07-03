@@ -35,25 +35,25 @@ The platform demonstrates scalable backend engineering principles including conc
 
 # ✨ Features
 
-- ✅ JWT Authentication
-- ✅ Organization Management
-- ✅ Multi-Tenant Architecture
-- ✅ Distributed Worker Fleet
-- ✅ Queue Management
-- ✅ Job Scheduling
-- ✅ Immediate Jobs
-- ✅ Scheduled Jobs
-- ✅ Recurring Jobs
-- ✅ Retry Policies
-- ✅ Dead Letter Queue
-- ✅ Worker Monitoring
-- ✅ Job Explorer
-- ✅ Dashboard Analytics
-- ✅ Activity Feed
-- ✅ REST APIs
-- ✅ WebSocket Live Updates
-- ✅ PostgreSQL Database
-- ✅ Modern React Dashboard
+-  JWT Authentication
+-  Organization Management
+-  Multi-Tenant Architecture
+-  Distributed Worker Fleet
+-  Queue Management
+-  Job Scheduling
+-  Immediate Jobs
+-  Scheduled Jobs
+-  Recurring Jobs
+-  Retry Policies
+-  Dead Letter Queue
+-  Worker Monitoring
+-  Job Explorer
+-  Dashboard Analytics
+-  Activity Feed
+-  REST APIs
+-  WebSocket Live Updates
+-  PostgreSQL Database
+-  Modern React Dashboard
 
 ---
 
@@ -117,61 +117,6 @@ After starting the application, sign in using the administrator demo account.
 
 > **Note:** These credentials are provided solely for evaluation and demonstration purposes.
 
----
-
-# 📸 Application Screenshots
-
-## Login
-
-> Add your Login screenshot here
-
-```md
-![Login](screenshots/login.png)
-```
-
----
-
-## Dashboard
-
-> Add Dashboard screenshot
-
-```md
-![Dashboard](screenshots/dashboard.png)
-```
-
----
-
-## Organizations
-
-```md
-![Organizations](screenshots/organizations.png)
-```
-
----
-
-## Job Explorer
-
-```md
-![Job Explorer](screenshots/job-explorer.png)
-```
-
----
-
-## Worker Fleet
-
-```md
-![Workers](screenshots/workers.png)
-```
-
----
-
-## Dead Letter Queue
-
-```md
-![DLQ](screenshots/dlq.png)
-```
-
----
 
 # 📂 Project Structure
 
