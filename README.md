@@ -17,9 +17,6 @@ A production-inspired distributed job scheduling platform built with **FastAPI**
 <img src="https://img.shields.io/badge/License-MIT-success"/>
 </p>
 
-### 🔗 Repository
-
-**https://github.com/aadarshjaiswal640/Job-Scheduler**
 
 </div>
 
